@@ -1,0 +1,134 @@
+{
+	"id": "c013a5e6-bf49-4968-84cd-e50bf7d3abfd",
+	"name": "Neon-Elivelton",
+	"description": "",
+	"auth": null,
+	"events": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "a702b5fb-34f0-49d0-b4a9-a54090d0366b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "3874a78d-3b56-4d78-898d-da57e448bafd",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variables": [],
+	"order": [
+		"dd382670-776b-4530-a5d9-c9971004ce32",
+		"7f4eef99-f097-4090-9bc5-f5d95c6c73a7",
+		"c255bc89-4958-40a4-9ec0-836389827531"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "7f4eef99-f097-4090-9bc5-f5d95c6c73a7",
+			"name": "GetConvertion",
+			"url": "http://localhost:5000/api/currency/USD/BRL",
+			"description": "Retorna a conversão de moedas",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "8e8e3d45-abcc-475e-8754-fd8233016249",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Conversão de moedas diferentes\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.response.to.have.status(200);",
+							"    pm.expect(jsonData.success).to.eql(true);",
+							"});"
+						]
+					}
+				}
+			],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "c255bc89-4958-40a4-9ec0-836389827531",
+			"name": "GetConvertion BRL -> BRL",
+			"url": "http://localhost:5000/api/currency/BRL/BRL",
+			"description": "Retorna a conversão de Real para Real",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "7433db54-dfcb-4fd6-ba4e-25b7f6974df6",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Conversão de moedas iguais\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.response.to.have.status(200);",
+							"    pm.expect(jsonData.success).to.eql(true);",
+							"    pm.expect(jsonData.data.value).to.eql(1);",
+							"});"
+						]
+					}
+				}
+			],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		},
+		{
+			"id": "dd382670-776b-4530-a5d9-c9971004ce32",
+			"name": "GetListCurrency",
+			"url": "http://localhost:5000/api/currency",
+			"description": "Retorna uma lista de moedas",
+			"data": null,
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0044b5b7-56ac-43a8-a037-39dd2bf42bf8",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"sucesso no request\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.success).to.eql(true);",
+							"});"
+						]
+					}
+				}
+			],
+			"folder": null,
+			"headers": "",
+			"pathVariables": {}
+		}
+	]
+}
