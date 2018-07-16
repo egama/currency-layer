@@ -1,0 +1,12 @@
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\bin\Debug\netcoreapp2.0\Neon.Elivelton.Service.deps.json
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\bin\Debug\netcoreapp2.0\Neon.Elivelton.Service.dll
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\bin\Debug\netcoreapp2.0\Neon.Elivelton.Service.pdb
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\obj\Debug\netcoreapp2.0\Neon.Elivelton.Service.csprojAssemblyReference.cache
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\obj\Debug\netcoreapp2.0\Neon.Elivelton.Service.csproj.CoreCompileInputs.cache
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\obj\Debug\netcoreapp2.0\Neon.Elivelton.Service.AssemblyInfoInputs.cache
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\obj\Debug\netcoreapp2.0\Neon.Elivelton.Service.AssemblyInfo.cs
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\obj\Debug\netcoreapp2.0\Neon.Elivelton.Service.dll
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\obj\Debug\netcoreapp2.0\Neon.Elivelton.Service.pdb
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Service\obj\Debug\netcoreapp2.0\Neon.Elivelton.Service.csproj.CopyComplete

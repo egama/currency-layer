@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Neon.Elivelton.UI</name>
+    </assembly>
+    <members>
+        <member name="M:Neon.Elivelton.UI.Controllers.CurrencyController.GetAllCurrencies">
+            <summary>
+            Lista todas moedas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Neon.Elivelton.UI.Controllers.CurrencyController.Get(System.String,System.String)">
+            <summary>
+            Converte as moedas 
+            </summary>
+            <param name="from">De</param>
+            <param name="to">Para</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

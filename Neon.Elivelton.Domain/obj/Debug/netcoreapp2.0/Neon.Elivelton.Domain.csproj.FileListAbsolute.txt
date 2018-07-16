@@ -1,0 +1,9 @@
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Domain\bin\Debug\netcoreapp2.0\Neon.Elivelton.Domain.deps.json
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Domain\bin\Debug\netcoreapp2.0\Neon.Elivelton.Domain.dll
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Domain\bin\Debug\netcoreapp2.0\Neon.Elivelton.Domain.pdb
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Domain\obj\Debug\netcoreapp2.0\Neon.Elivelton.Domain.csprojAssemblyReference.cache
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Domain\obj\Debug\netcoreapp2.0\Neon.Elivelton.Domain.csproj.CoreCompileInputs.cache
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Domain\obj\Debug\netcoreapp2.0\Neon.Elivelton.Domain.AssemblyInfoInputs.cache
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Domain\obj\Debug\netcoreapp2.0\Neon.Elivelton.Domain.AssemblyInfo.cs
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Domain\obj\Debug\netcoreapp2.0\Neon.Elivelton.Domain.dll
+C:\Users\elive\source\repos\Neon-Elivelton\Neon.Elivelton.Domain\obj\Debug\netcoreapp2.0\Neon.Elivelton.Domain.pdb
