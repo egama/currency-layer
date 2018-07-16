@@ -13,6 +13,6 @@ namespace Neon.Elivelton.Domain.ViewModel
 
         public decimal value { get; set; }
         public string valueFormatted2 { get { return value.ToString("N2"); } }
-        public string ValueFormatted3 { get { return value.ToString("N3"); } }
+        public string valueFormatted3 { get { return value.ToString("N3"); } }
     }
 }
